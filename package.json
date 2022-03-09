@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API for t9Keyword",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParisArcos/t9Keyboard.git"
+  },
+  "author": "Paris Arcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParisArcos/t9Keyboard/issues"
+  },
+  "homepage": "https://github.com/ParisArcos/t9Keyboard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "sweetalert2": "^11.4.4",
+    "word-list": "^3.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
