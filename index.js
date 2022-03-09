@@ -28,6 +28,6 @@ app.use(cors(corsConfig));
 
 app.use("/suggested_words", suggestedWordsRouter);
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 4000, () => {
   console.log("Listen on PORT:4000");
 });
