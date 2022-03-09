@@ -9,8 +9,6 @@ const app = express();
 
 dotenv.config();
 
-app.use(morgan("dev"));
-
 app.use(express.json());
 
 const whitelist = [process.env.CLIENT_URL];
